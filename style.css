@@ -1,0 +1,190 @@
+body,
+html {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: #476c7f;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header.header a {
+  color: #fff;
+}
+
+.none {
+  display: none;
+}
+
+.brand {
+  font-size: 30px;
+  display: block;
+  width: 100%;
+}
+
+.icons i {
+  font-size: 24px;
+}
+
+.envelope-notification {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.email-notification-counter {
+  position: absolute;
+  top: -7px;
+  right: 0px;
+  border-radius: 50%;
+  padding: 1px 7px;
+  font-size: 10px;
+  background-color: #66cc99;
+  color: #fff;
+}
+
+.menu-opener-wrapper {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  float: left;
+}
+
+.menu-user-wrapper {
+  display: inline-block;
+  width: 50%;
+}
+
+.user-header {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.menu-wrapper {
+  width: 100%;
+}
+
+.wrapper {
+  display: table;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  min-height: 100vh !important;
+}
+
+.left-aside {
+  width: 240px;
+  background: #FFF;
+  border-right: 5px solid #EEE;
+}
+
+.left-aside,
+.right-aside {
+  padding: 0;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.sidebar {
+  display: block;
+  width: 240px;
+}
+
+.navigation {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+#menu .navigation .menu-item a,
+#menu .navigation .submenu a {
+  text-align: left;
+  color: #666;
+  position: relative;
+  transition: all 0.2s;
+  display: block;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 11px 20px;
+}
+
+#menu .navigation .menu-item a:hover,
+#menu .navigation .submenu a:hover {
+  color: #476c7f !important;
+}
+
+#menu .navigation .menu-item a.active,
+#menu .navigation .submenu a.active {
+  border-right: 3px solid #476c7f;
+  background: #EEEEEE;
+  color: #476c7f;
+}
+
+.navigation .menu-item i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.submenu-content {
+  opacity: 0;
+  height: 0px;
+}
+
+.menu-item .submenu-header .submenu-icon i {
+  font-size: 10px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    position: relative;
+  }
+  .navbar .user-header {
+    position: absolute;
+    right: 50px;
+    bottom: 18px;
+  }
+  .navbar .email-notification {
+    position: absolute;
+    right: 150px;
+    bottom: 18px;
+  }
+  .brand {
+    display: inline-block;
+    width: 250px;
+  }
+  .menu-opener {
+    margin: 0 50px;
+  }
+  .email-notification-counter {
+    right: -21px;
+  }
+  .left-aside {
+    top: 60px;
+  }
+}

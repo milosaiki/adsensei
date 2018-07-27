@@ -1,0 +1,23 @@
+{
+    "/admin-post.js": "/admin-post.js",
+    "/admin-comment.js": "/admin-comment.js",
+    "/admin-events.js": "/admin-events.js",
+    "/-member.js": "/-member.js",
+    "/-gallery.js": "/-gallery.js",
+    "/-events.js": "/-events.js",
+    "/-contact.js": "/-contact.js",
+    "/-about.js": "/-about.js",
+    "/admin-member-new.js": "/admin-member-new.js",
+    "/admin-member-list.js": "/admin-member-list.js",
+    "/admin-member-edit.js": "/admin-member-edit.js",
+    "/admin-photo-upload.js": "/admin-photo-upload.js",
+    "/admin-photo.js": "/admin-photo.js",
+    "/admin-mail.js": "/admin-mail.js",
+    "/admin-message.js": "/admin-message.js",
+    "/js/app_admin.js": "/js/app_admin.js",
+    "/css/app.css": "/css/app.css",
+    "/css/slick-theme.css": "/css/slick-theme.css",
+    "/css/app_admin.css": "/css/app_admin.css",
+    "/js/app.js": "/js/app.js",
+    "/js/jquery.min.js": "/js/jquery.min.js"
+}
